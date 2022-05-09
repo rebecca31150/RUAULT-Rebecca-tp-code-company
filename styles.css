@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+/*navbar*/
+.containernav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #093348;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.listnav{
+    display: flex;
+    list-style-type: none;
+}
+.listnav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17pt;
+    letter-spacing: 5px;
+   
+}
+.homePage{
+    border-right: #2c101a solid 2px;
+    box-shadow: #1a4155 2px 0px;
+    margin-right: 20px;
+}
+.marge{
+    margin-right: 30px;
+}
+.listnav a:hover{
+    background-color: #1f4559;
+    color: #8ebdd6;
+}
+.pictopinceau{
+    background-color: #11394e;
+    border-radius: 100%;
+    border: rgba(255, 255, 255, 0.283) solid 2px;
+margin-left: 250px;
+margin-right: 400px;
+}
+
+/*Homepage*/
+.containerhomepage{
+    display:flex;
+    background-image: url(/Ressource/ordinateur.png);
+    width: 100%;
+}
+.texthomepage{
+    width: 900px;
+    text-align: center;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerhomepage h1{
+    font-size: 60pt ;
+    color: white;
+    margin-top: 60px;
+    
+}
+.containerhomepage h2{
+    border-bottom: #5a8da7 solid 2px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 24pt;
+    color: white;
+}
+.containerhomepage p{
+    font-size: 15pt;
+    color: #b4d1e1;
+    margin-bottom: 20px;
+}
+.boutonordi{
+    font-size: 15pt;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.432);
+    border: white solid 2px;
+    border-radius: 30px;
+    height: 50px;
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+/*Ourteam*/
+.presentation{
+    display:flex;
+    gap: 100px;
+    text-align: center;
+    color: #618598;
+}
+
+.textourteam h1{
+    font-size: 36pt;
+    color: #0d415c;
+    width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.card img{
+    border-radius: 100%;
+}
+.card h2{
+    color: #0d415c;
+}
+
+.Pourteam   p{
+    color: #0d415c;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: #c9d4da solid 2px;
+}
+
+
+
+/*Porfolio*/
+.containerportfolio{
+    width: 100%;
+    background-color: #3ead87;
+    display: flex;
+    
+}
+.textprotfolio{
+    width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerportfolio h1{
+    font-size: 36pt;
+    color: white;
+    width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.containerportfolio h2{
+    font-size: 18pt;
+    color: white;
+}
+.containerportfolio img{
+    border-radius: 100%;
+}
+.containerportfolio .boutoncontact{
+    font-size: 15pt;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.432);
+    border: white solid 2px;
+    border-radius: 30px;
+    height: 50px;
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+   
+}
+
+/*contact*/
+.containercontact{
+    width: 100%;
+    background-color: #223139;
+    display: flex;
+}
+.textcontact{
+    width: 700px;
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.containercontact h1, h2{
+    text-align: center;
+    color: white;
+}
+.nom{
+ height: 30px;
+ border-radius: 30px;
+ text-align: center;
+ margin-bottom: 10px; 
+ margin-top: 10px;
+
+}
+.prenom{height: 30px;
+border-radius: 30px;
+text-align: center;
+margin-bottom: 10px; 
+ 
+}
+.message{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+
+
+/*footer*/
+.containerfooter{
+    width: 100%;
+    background-color: #223139;
+    
+}
+.titrefooter{
+    color: white;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.pictoreseaux{
+   margin-left: 10px;
+}
+.pfooter{
+    color: white;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+footer {
+    display: flex;
+    border-top: #747d82 solid 2px ;
+     
+}
